@@ -1,3 +1,4 @@
+// code starts here
 #include<stdio.h>
 int main() {
       double first, second, temp;
@@ -15,7 +16,7 @@ int main() {
       // Value of temp (initial value of first) is assigned to second
       second = temp;
 
-      printf("\nAfter swapping, firstNumber = %.2lf\n", second);
+      printf("\nAfter swapping, firstNumber = %.2lf\n", first);
       printf("After swapping, secondNumber = %.2lf", second);
       return 0;
 }
